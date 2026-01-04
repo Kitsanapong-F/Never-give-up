@@ -74,10 +74,13 @@ body {
 /*จุด*/
 .dotted{
     border-style: dotted;
+    border-width: 5px 4px 3px 2px ;
+    border-color: red;
 }
 /*เส้นประ*/
 .dashed{
     border-style: dashed;
+    border-width: 5px;
 }
 /*เส้นทึบ*/
 .solid{

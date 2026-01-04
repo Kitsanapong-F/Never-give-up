@@ -71,35 +71,35 @@ body {
 }
 
 /*เส้นขอบ*/
-
+/*จุด*/
 .dotted{
     border-style: dotted;
 }
-
+/*เส้นประ*/
 .dashed{
     border-style: dashed;
 }
-
+/*เส้นทึบ*/
 .solid{
     border-style: solid;
 }
-
+/*เส้นสองชั้น*/
 .double{
     border-style: double;
 }
-
+/*เส้นแบบร่อง3d*/
 .groove{
     border-style: groove;
 }
-
+/*เส้นนูน3d*/
 .ridge{
     border-style: ridge;
 }
-
+/*เส้นกดลง*/
 .inset{
     border-style: inset;
 }
-
+/*เส้นยกออก*/
 .outset{
     border-style: outset;
 }

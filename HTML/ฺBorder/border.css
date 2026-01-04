@@ -1,0 +1,106 @@
+/* จัดหน้าให้อยู่กลาง */
+body {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* กล่องพื้นฐาน */
+.border-list {
+    width: 120px;
+    height: 80px;
+    border: 2px solid blue;
+    background-color: #fff3b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* โค้ง 20px */
+.radius-20 {
+    border-radius: 20px;
+}
+
+/* โค้ง 50px */
+.radius-50 {
+    border-radius: 50px;
+}
+
+/* โค้งเฉพาะด้านบน */
+.radius-top {
+    border-radius: 30px 30px 0 0;
+}
+
+/* วงกลม */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #a0e7e5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+/*เงากล่อง*/
+.box-shadow{
+    box-shadow: 5px 5px 5px #888888;
+}
+/* เงาด้านใน */
+.box-shadowinset{
+    box-shadow: inset 0 0 15px  rgba(0, 0, 0, 0.4);
+}
+/*เงานุ่ม*/
+.box-shadowSoft{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+/* เงาหลายชั้น*/
+.box-shadowmulti{
+    box-shadow:  
+    0 2px 4px rgba(0,0,0,0.15),   /* เงาชั้นบน  */
+    0 6px 12px rgba(0,0,0,0.12),  /* เงาชั้นกลาง */
+    0 12px 24px rgba(0,0,0,0.10); /* เงาชั้นล่าง */
+}
+/*เงาด้าน นอก*/
+.box-shadowdown{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/*เส้นขอบ*/
+
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.double{
+    border-style: double;
+}
+
+.groove{
+    border-style: groove;
+}
+
+.ridge{
+    border-style: ridge;
+}
+
+.inset{
+    border-style: inset;
+}
+
+.outset{
+    border-style: outset;
+}
+
